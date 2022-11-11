@@ -1,3 +1,12 @@
-body{
-    
+.menu {
+    list-style: none;
+    padding: 0;
+    background: #FFFF;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+
+}
+.menu li a{
+    text text-decoration: none;
 }

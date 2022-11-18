@@ -1,0 +1,65 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+
+h1{
+    text-align: center;
+}
+
+.boton{
+    border: 1px solid #3FA9C1; 
+    padding: 10px;
+    background-color: #3FA9C1;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Helvetica';
+    border-radius: 50px;
+    display: inline-block;
+}
+
+ol{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 0px;
+    list-style:none;
+}
+
+.calendario{
+    width: 300px;
+    height: 200px;
+    margin-block: 10px;
+    background-color: #002243;
+    color: #ffffff;
+}
+
+.first_day {
+    grid-column-start: 4;
+}
+
+.calendario{
+    text-align: center;
+    width: 300px;
+
+}
+
+.second-day{
+    grid-column-start: 7;
+}
+
+.third-day{
+    grid-column-start: 2;
+}
+
+.fourth-day{
+    grid-column-start: 5;
+}
+
+.fifth-day{
+    grid-column-start: 3;
+}
+
+.sixth-day{
+    grid-column-start: 6;
+}

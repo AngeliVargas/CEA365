@@ -1,0 +1,44 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #3FA9C1;
+	min-height: 100vh;
+}
+.login-docentes {
+	width: 300px;
+	height: 420px;
+	background-color: #002243;
+	color: #FFFF;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px; 
+	border-radius: 6%;
+
+}
+.login-docentes .logo5 {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	position: absolute;
+	top: 8px;
+	left: calc(47% - 50px);
+}
+.login-docentes h1 {
+	width: 0;
+	height: 0 0 20px;
+	font-size: 22px;
+	margin-top: 62px;
+	margin-left: 95px;
+}
+.login-docentes label {
+	margin: 0;
+	height: 0;
+	font-weight: bold;
+}
+.login-docentes input {
+	width: 100%;
+	margin-bottom: 20px;
+}
